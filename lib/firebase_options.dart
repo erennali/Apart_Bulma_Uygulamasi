@@ -50,8 +50,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDdG9TtmpVAvyHdnnPCBTbXxIPj7bqZp1c',
-    appId: '1:227858264615:web:9d0f2081707f8ecd771402',
+    apiKey: 'yourApiKey',
+    appId: 'yourAppId',
     messagingSenderId: '227858264615',
     projectId: 'apart-9d669',
     authDomain: 'apart-9d669.firebaseapp.com',
@@ -59,8 +59,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBPmG2OLwgEOTIz5tIpt7TE_M3s3C7a64A',
-    appId: '1:227858264615:android:723cdad667804590771402',
+    apiKey: 'yourApiKey',
+    appId: 'yourAppId',
     messagingSenderId: '227858264615',
     projectId: 'apart-9d669',
     storageBucket: 'apart-9d669.firebasestorage.app',
