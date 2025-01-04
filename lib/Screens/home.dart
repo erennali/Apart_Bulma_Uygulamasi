@@ -1,3 +1,4 @@
+import 'package:apart/Screens/admin_login.dart';
 import 'package:apart/Screens/cevriyehoca.dart';
 import 'package:apart/Screens/login.dart';
 import 'package:apart/Screens/register.dart';
@@ -99,7 +100,7 @@ class _HomeState extends State<Home> {
             const SizedBox(height: 16),
             TextButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => FormOrnek()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) =>const AdminLoginPage()));
               },
               child: const Text(
                 'Yönetici Girişi',
