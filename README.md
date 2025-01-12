@@ -1,16 +1,63 @@
-# apart
+# 🏠 Apart Bulma Uygulaması
 
-A new Flutter project.
+Apart Bulma Uygulaması, apart ilanlarını kolayca oluşturabileceğiniz, diğer kullanıcıların ilanlarını görüntüleyebileceğiniz bir mobil uygulamadır. **Flutter** ile geliştirilmiş ve **Firebase** altyapısını kullanmaktadır.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📋 Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+### 🔑 Kullanıcı Girişi ve Çıkışı
+- Firebase Authentication ile kullanıcılar:
+  - E-posta ve şifre kullanarak giriş yapabilir.
+  - Yeni hesap oluşturabilir.
+  - Çıkış işlemi gerçekleştirebilir.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🏠 Apart İlanı Verme
+- Kullanıcılar yeni apart ilanları oluşturabilir.
+- İlan detayları:
+  - Başlık
+  - Açıklama
+  - Fiyat
+  - Konum
+  - M2
+  - Kiralık/Satılık
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔍 Apart Arama ve Filtreleme
+- İlanlar ücret kriterine göre filtrelenebilir.
+- Detaylı apart bilgilerini görüntüleme özelliği.
+
+### 📁 Tutulan Apartlar
+- Kullanıcılar, tuttukları apartların listesini ayrı bir menüde görüntüleyebilir.
+- Kullanıcılar, tutulan apartlarının listesini ayrı bir menüde görüntüleyebilir.
+
+### 👤 Profil Menüsü
+- Kullanıcılar:
+  - Kendi bilgilerini (e-posta, kullanıcı adı vb.) görüntüleyebilir.
+  - Profil menüsünden erişebilir.
+
+### 🔒 Şifre Sıfırlama
+- Kullanıcılar, şifrelerini unutursa Firebase sayesinde e-postalarına şifre sıfırlama bağlantıları gönderebilir.
+
+
+---
+
+## 🛠️ Teknolojiler ve Araçlar
+- **Flutter**: Mobil uygulama geliştirme.
+- **Firebase**: 
+  - Authentication: Kullanıcı oturum yönetimi.
+  - Firestore: Apart ilanlarının saklanması ve yönetimi.
+- **Dart**: Flutter uygulaması için programlama dili.
+
+---
+
+## 📦 Kurulum ve Çalıştırma
+
+### Gereksinimler
+- Flutter SDK
+- Dart SDK
+- Firebase Projesi (Authentication ve Firestore yapılandırılmış)
+
+### Adımlar
+1. **Proje Depolarını Klonlayın**:
+   ```bash
+   git clone https://github.com/erennali/Apart_Bulma_Uygulamasi.git
